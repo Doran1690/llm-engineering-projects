@@ -1,6 +1,18 @@
 # LLM Engineering Projects
 
-LLM applications built with Python, Hugging Face and Gradio.
+LLM applications and data projects built with Python.
+
+## Gym Membership Churn Analysis
+
+An end-to-end analysis of why gym members leave.
+
+- Generated 100 realistic members with Llama 3.2 3B running locally on a GPU, then assigned churn with rules in Python
+- Checked data quality, analyzed churn with pandas and SQL, and visualized the results with Matplotlib
+- Found that the Holon branch drives churn, and that part of the high churn among students is explained by how members are spread across branches
+
+**Tech:** Python · pandas · SQLite · Matplotlib · Hugging Face Transformers
+
+[Open the notebook](gym_churn_analysis.ipynb)
 
 ## Synthetic Data Generator
 
